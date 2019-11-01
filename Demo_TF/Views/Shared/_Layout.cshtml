@@ -1,0 +1,426 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TEC Helper</title>
+
+    <environment include="Development">
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+    </environment>
+    <environment exclude="Development">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+              asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
+              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute"
+              crossorigin="anonymous"
+              integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" />
+    </environment>
+    <link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <!--Sección 1-->
+    <header class="Seccion" id="sec_1">
+        <div class="fondo">
+            <div>
+                <div class="Marca_P" onclick="window.location = '#sec_1';">
+                </div>
+                <div class="logo_1">
+                    <h1>TEC</h1>
+                    <h2>Helper</h2>
+                </div>
+                <div class="enlaces" id="E1">
+                    <a href="#sec_2">About</a>
+                    <a href="#sec_3">Search</a>
+                    <div class="line_1"></div>
+                </div>
+                <div class="enlaces" id="E2">
+                    <a href="#sec_4">Products</a>
+                    <a href="#sec_5">Contact</a>
+                    <div class="line_2"></div>
+                </div>
+            </div>
+
+            <div class="RightC">
+                <div class="IMG_R"></div>
+                <div class="CJ1">
+                    <div class="F1_LG" id="I1"></div>
+                </div>
+            </div>
+            <div class="LeftC">
+                <div class="IMG_L"></div>
+            </div>
+
+            <div class="Buton" onclick="window.location = '#sec_3';">
+                <p>EMPEZAR</p>
+            </div>
+
+            <div class="under">
+                <div class="B1"></div>
+            </div>
+        </div>
+    </header>
+
+    <!--Sección 2-->
+    <div class="Seccion" id="sec_2">
+        <div class="Marca_D" onclick="window.location = '#sec_1';">
+        </div>
+        <div class="logo_2">
+            <h1>TEC</h1>
+            <h2>Helper</h2>
+        </div>
+        <div class="CT-1">
+            <select name="select" class="new">
+                <option>About</option>
+                <option>Search</option>
+                <option>Products</option>
+                <option>Contact</option>
+            </select>
+        </div>
+
+        <div class="DP_T1">
+            <div class="TU_D1">
+                <h1>N</h1>
+                <h2>osotros</h2>
+            </div>
+            <div class="TU_D2">
+                <p>
+                    Somos un emprendimiento que busca ayudarte a encontrar el computador o laptop más ideal para ti. En TecHelper, sabemos que lo difícil
+                    que puede ser encontrar un computador que ajuste a tus necesidad, es por ello que hemos creado una herramienta sencilla que te permitirá
+                    llevará ese computador que necesitas a tus manos.
+                </p>
+            </div>
+        </div>
+
+        <div class="DP_T2">
+            <div class="BF_T1" id="U1">
+                <div class="IG">
+                    <div class="OBJ" id="O1"></div>
+                </div>
+                <div class="BT1">
+                    <h1>Beneficio 1</h1>
+                    <p>
+                        Nuestra herramienta de búsqueda es la más sencilla del mercado. Con nosotros tendrás que preocuparte por tener que entender
+                        esas palabras complicadas que siempre escucharás en cualquier tienda.
+                    </p>
+                </div>
+            </div>
+            <div class="BF_T1" id="U2">
+                <div class="IG">
+                    <div class="OBJ" id="O2"></div>
+                </div>
+                <div class="BT1">
+                    <h1>Beneficio 2</h1>
+                    <p>
+                        TecHelper cuenta con una red de pequeños proveedores de tecnología, los cuales ponemos a tu disposición. Con nosotros, podrás
+                        encontrar tu compu ideal al mejor precio.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Sección 3-->
+    <div class="Seccion" id="sec_3">
+        <div class="fondo">
+            <div class="Text_Fondo">
+                <div class="LG_Inicial"></div>
+                <div class="TXT_P">
+                    <h1>Encuentra</h1>
+                </div>
+                <div class="TXT_S">
+                    <p>Tu computadora ideal, acorde a tus caracteristicas</p>
+                </div>
+            </div>
+            <div class="CO_D">
+                <div class="FO" id="FT0">
+
+                </div>
+                <div class="FO" id="FT1">
+                    <div class="Marca_D" id="MY" onclick="window.location = '#sec_1';">
+                    </div>
+                    <div class="logo_3" id="MY">
+                        <h1>TEC</h1>
+                        <h2>Helper</h2>
+                    </div>
+                    <div class="CT-1" id="MY">
+                        <select name="select" class="new">
+                            <option>Search</option>
+                            <option>Products</option>
+                            <option>Contact</option>
+                            <option>About</option>
+                        </select>
+                    </div>
+                    <div class="RightC1">
+                        <div class="IMG_R1"></div>
+                        <div class="P1">
+                            <p>
+                                PORTABILIDAD
+                            </p>
+                        </div>
+                    </div>
+                    <div class="LeftC1">
+                        <div class="IMG_L1"></div>
+                        <div class="P2">
+                            <p>
+                                 NOPORTABILIDAD
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="FO" id="FT2">
+                    <div class="Marca_D" onclick="window.location = '#sec_1';">
+                    </div>
+                    <div class="logo_3">
+                        <h1>TEC</h1>
+                        <h2>Helper</h2>
+                    </div>
+                    <div class="CT-1">
+                        <select name="select" class="new">
+                            <option>Search</option>
+                            <option>Products</option>
+                            <option>Contact</option>
+                            <option>About</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="FO" id="FT3">
+                    <div class="Marca_D" id="MY" onclick="window.location = '#sec_1';">
+                    </div>
+                    <div class="logo_3">
+                        <h1>TEC</h1>
+                        <h2>Helper</h2>
+                    </div>
+                    <div class="CT-1">
+                        <select name="select" class="new">
+                            <option>Search</option>
+                            <option>Products</option>
+                            <option>Contact</option>
+                            <option>About</option>
+                        </select>
+                    </div>
+                    <div class="MG">
+                        <div class="TG" id="G1">
+                            <div class="MD">
+                                <div class="LG" id="LG1"></div>
+                                <div class="TT">
+                                    <h1>Ofimática</h1>
+                                </div>
+                            </div>
+                            <div class="ITU">
+                                <div class="AP" id="AP1"></div>
+                                <div class="AP" id="AP2"></div>
+                                <div class="AP" id="AP3"></div>
+                                <div class="AP" id="AP4"></div>
+                                <div class="AP" id="AP5"></div>
+                                <div class="AP" id="AP6"></div>
+                            </div>
+                        </div>
+                        <div class="TG" id="G2">
+                            <div class="MD">
+                                <div class="LG" id="LG2"></div>
+                                <div class="TT">
+                                    <h1>Gaming 3D</h1>
+                                </div>
+                            </div>
+                            <div class="ITU">
+                                <div class="AP" id="AP7"></div>
+                                <div class="AP" id="AP8"></div>
+                                <div class="AP" id="AP9"></div>
+                                <div class="AP" id="AP10"></div>
+                                <div class="AP" id="AP11"></div>
+                                <div class="AP" id="AP12"></div>
+                            </div>
+                        </div>
+                        <div class="TG" id="G3">
+                            <div class="MD">
+                                <div class="LG" id="LG3"></div>
+                                <div class="TT">
+                                    <h1>Editar Videos</h1>
+                                </div>
+                            </div>
+                            <div class="ITU">
+                                <div class="AP" id="AP13"></div>
+                                <div class="AP" id="AP14"></div>
+                                <div class="AP" id="AP15"></div>
+                                <div class="AP" id="AP16"></div>
+                                <div class="AP" id="AP17"></div>
+                                <div class="AP" id="AP18"></div>
+                            </div>
+                        </div>
+                        <div class="TG" id="G4">
+                            <div class="MD">
+                                <div class="LG" id="LG4"></div>
+                                <div class="TT">
+                                    <h1>Programar</h1>
+                                </div>
+                            </div>
+                            <div class="ITU">
+                                <div class="AP" id="AP19"></div>
+                                <div class="AP" id="AP20"></div>
+                                <div class="AP" id="AP21"></div>
+                                <div class="AP" id="AP22"></div>
+                                <div class="AP" id="AP23"></div>
+                                <div class="AP" id="AP24"></div>
+                            </div>
+                        </div>
+                        <div class="TG" id="G5">
+                            <div class="MD">
+                                <div class="LG" id="LG5"></div>
+                                <div class="TT">
+                                    <h1>Conferencia</h1>
+                                </div>
+                            </div>
+                            <div class="ITU">
+                                <div class="AP" id="AP25"></div>
+                                <div class="AP" id="AP26"></div>
+                                <div class="AP" id="AP27"></div>
+                                <div class="AP" id="AP28"></div>
+                                <div class="AP" id="AP29"></div>
+                                <div class="AP" id="AP30"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="FO" id="FT4">
+                    <div class="fondo">
+                        <div class="Marca_D" onclick="window.location = '#sec_1';">
+                        </div>
+                        <div class="logo_3">
+                            <h1>TEC</h1>
+                            <h2>Helper</h2>
+                        </div>
+                        <div class="CT-1">
+                            <select name="select" class="new">
+                                <option>Search</option>
+                                <option>Products</option>
+                                <option>Contact</option>
+                                <option>About</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="Rectangulo_1">
+                        <div class="square" id="V1">
+                            <div class="LG_ICO" id="IMG1"></div>
+                            <a class="N1" id="CT">Grupo (1)</a>
+                        </div>
+                        <div class="square" id="V2">
+                            <div class="LG_ICO" id="IMG2"></div>
+                            <a class="N2" id="CT">Grupo (2)</a>
+                        </div>
+                        <div class="square" id="V3">
+                            <div class="LG_ICO" id="IMG3"></div>
+                            <a class="N3" id="CT">Grupo (3)</a>
+                        </div>
+                        <div class="square" id="V4">
+                            <div class="LG_ICO" id="IMG4"></div>
+                            <a class="N4" id="CT">Ninguna</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="FO" id="FT5">
+                    <div class="fondo">
+                        <div class="Marca_D" onclick="window.location = '#sec_1';">
+                        </div>
+                        <div class="logo_3">
+                            <h1>TEC</h1>
+                            <h2>Helper</h2>
+                        </div>
+                        <div class="CT-1">
+                            <select name="select" class="new">
+                                <option>Search</option>
+                                <option>Products</option>
+                                <option>Contact</option>
+                                <option>About</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="Rectangulo_1">
+                        <div class="square" id="S1">
+                            <div class="capa" id="CP1">
+                                <div class="lap01" id="LP1"></div>
+                                <a class="N1" asp-area="" asp-controller="Home" asp-action="Index">MacBook Pro</a>
+                            </div>
+                            <div class="capa_logo" id="CP1">
+                                <div class="logo_marca" id="LM1"></div>
+                            </div>
+                        </div>
+                        <div class="square" id="S2">
+                            <div class="capa" id="CP2">
+                                <div class="lap02" id="LP2"></div>
+                                <a class="N2" asp-area="" asp-controller="Home" asp-action="Privacy">MateBook X Pro</a>
+                            </div>
+                            <div class="capa_logo" id="CP2">
+                                <div class="logo_marca" id="LM2"></div>
+                            </div>
+                        </div>
+                        <div class="square" id="S3">
+                            <div class="capa" id="CP3">
+                                <div class="lap03" id="LP3"></div>
+                                <a class="N3" asp-area="" asp-controller="Home" asp-action="Privacy">IdeaPad 720s</a>
+                            </div>
+                            <div class="capa_logo" id="CP3">
+                                <div class="logo_marca" id="LM3"></div>
+                            </div>
+                        </div>
+                        <div class="square" id="S4">
+                            <div class="capa" id="CP4">
+                                <div class="lap04" id="LP4"></div>
+                                <a class="N4" asp-area="" asp-controller="Home" asp-action="Privacy">Surface Laptop 2</a>
+                            </div>
+                            <div class="capa_logo" id="CP4">
+                                <div class="logo_marca" id="LM4"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ME1">
+            <a href="#FT1">Question (1)</a>
+            <a href="#FT2">Question (2)</a>
+            <a href="#FT3">Question (3)</a>
+            <a href="#FT4">Question (4)</a>
+            <a href="#FT5">Resultado (R)</a>
+        </div>
+    </div>
+
+    <!--Sección 4-->
+    <div class="Seccion" id="sec_4">
+        @RenderBody()
+    </div>
+
+    <!--Sección 5-->
+    <div class="Seccion" id="sec_5"></div>
+
+    <footer class="border-top footer text-muted" id="Mod">
+        <div class="container" id="Mod">
+            &copy; 2019 - TEC Helper - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+
+    <environment include="Development">
+        <script src="~/lib/jquery/dist/jquery.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    </environment>
+    <environment exclude="Development">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+                asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
+                asp-fallback-test="window.jQuery"
+                crossorigin="anonymous"
+                integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"
+                asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+                asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
+                crossorigin="anonymous"
+                integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o">
+        </script>
+    </environment>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="https://unpkg.com/simplebar@latest/dist/simplebar.js"></script>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
+

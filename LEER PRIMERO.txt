@@ -1,0 +1,25 @@
+La pagina web contiene 5 secciones:
+1) Seccion 1: Home de la Pagina con el Menú
+2) Seccion 2: Presenta lo que forma Tec Helper junto con sus beneficios
+3) Seccion 3: Aqui empieza el proceso de busqueda hecho por preguntas
+4) Seccion 4: Aqui se visualiza la informacion de la laptop o computadora seleccionada
+5) Seccion 5: Pueden contactarnos o charlar con nostros
+
+Nuestra pagina web no se redirige a otras paginas, sin embargo solo las secciones cambian
+acorde a la seleccion de laptop o computadora, esto se puede visualizar.
+
+Cuando se ubica en la Seccion 3, en el menu ubicado al inferior de la seccion, selecciona
+Resultado, ahí vera 4 laptops de ejemplo, puede seleccionar el MacBook Pro y el MateBook X Pro
+(OJO: Solo lo vinculado es el nombre no la imagen), en la seccion 4 se ve el a cambio acorde la 
+laptop que eligio. Aquí usamos el RenderBody para solo cambiar esa seccion, con las hojas privacy & Index
+ubicados en la carpeta View/Home. 
+
+Ahora cada vez que usa los vinculos, la pagina se mueve acorde a que se dio un refresh. No es tan dinamico 
+en su totalidad, ya que aun falta implementar el javascript, esto ayudara a que la pagina se ve más manejable
+Tambien falta que la pagina se adapte a corde a las mediciones de otra pantalla.
+
+Recomendación para ver mejor la pagina es abrirlo en GOOGLE CHROME
+También tiene que estar en una dimension de AnchoxAltura = 1520 X 720 px 
+
+Otro detalle es que la barra de scroll si esta habilitada, pero es blanco convinando con esa linea blanca 
+que esta al lado derecho, así que se puede usar.
