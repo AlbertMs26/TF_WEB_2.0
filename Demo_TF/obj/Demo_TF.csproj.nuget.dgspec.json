@@ -1,26 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\Demo_TF\\Demo_TF\\Demo_TF.csproj": {}
+    "C:\\Users\\GONZALO\\Documents\\AplicacionesWeb\\StoreApp\\TF_WEB_2.0\\Demo_TF\\Demo_TF.csproj": {}
   },
   "projects": {
-    "Z:\\Demo_TF\\Demo_TF\\Demo_TF.csproj": {
+    "C:\\Users\\GONZALO\\Documents\\AplicacionesWeb\\StoreApp\\TF_WEB_2.0\\Demo_TF\\Demo_TF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\Demo_TF\\Demo_TF\\Demo_TF.csproj",
+        "projectUniqueName": "C:\\Users\\GONZALO\\Documents\\AplicacionesWeb\\StoreApp\\TF_WEB_2.0\\Demo_TF\\Demo_TF.csproj",
         "projectName": "Demo_TF",
-        "projectPath": "Z:\\Demo_TF\\Demo_TF\\Demo_TF.csproj",
-        "packagesPath": "C:\\Users\\msego\\.nuget\\packages\\",
-        "outputPath": "Z:\\Demo_TF\\Demo_TF\\obj\\",
+        "projectPath": "C:\\Users\\GONZALO\\Documents\\AplicacionesWeb\\StoreApp\\TF_WEB_2.0\\Demo_TF\\Demo_TF.csproj",
+        "packagesPath": "C:\\Users\\GONZALO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\GONZALO\\Documents\\AplicacionesWeb\\StoreApp\\TF_WEB_2.0\\Demo_TF\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\msego\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\GONZALO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
@@ -62,10 +60,16 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
